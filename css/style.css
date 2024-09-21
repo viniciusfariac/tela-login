@@ -153,3 +153,63 @@ footer h3{
     font-size: 23px;
     color: #F7A1A1;
 }
+/*Responsivo*/  
+@media (max-width: 912px) {
+    .container {
+        width: 80%;
+        height: 450px;
+    }
+
+    .container h2 {
+        font-size: 36px; 
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        width: 80%; 
+    }
+
+    form button {
+        margin-left: 0; 
+        width: 100%; 
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        height: 450px;
+    }
+
+    .container h2 {
+        font-size: 36px; 
+    }
+
+    input[type="email"],
+    input[type="password"] {
+        width: 100%; 
+    }
+
+    form button {
+        margin-left: 0; 
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 24px; 
+    }
+
+    footer h3 {
+        font-size: 18px; 
+    }
+
+    .container h2 {
+        font-size: 28px;
+    }
+}
