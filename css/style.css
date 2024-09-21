@@ -1,0 +1,155 @@
+/* Restart */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* font p */
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* font li  */
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* font titles */
+h1, h2, h3, h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* color h1 */
+h1{
+    color: #F7A1A1;
+}
+/* color a */
+a{
+    color: #000;
+}
+/* color and transition a */
+a:hover{
+    color: #8CC4A1;
+    transition: 0.5s;
+}
+/* font button  */
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* input display */
+input{
+    display: block;
+}
+/* width input  */
+input[type="email"],
+input[type="password"]
+{
+    width: 20vw;   
+}
+/* input details */
+input{
+    color: #000;
+    border: 1px solid #F7A1A1;
+    border-radius: 4px;
+    padding: 4px;
+}
+/* background-color body */
+body{
+    background-color: #FDEBD0;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 4vh auto;
+}
+#header-links, ul{
+    display: flex;
+    gap: 1rem;
+}
+#link-sign{
+    background-color: #F7A1A1;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+.link{
+    background-color: #FDEBD0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 30%;
+    height: 70vh;
+    border-radius: 10px;
+    margin: 0 auto;
+}   
+.container h2{
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 50px;
+}
+.container img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+}
+#sign-in{
+    display: flex;
+    justify-content: center;
+}
+a button{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+form button{
+    margin: 10px 0;
+}
+form input{
+    margin-bottom: 10px;
+
+}
+form p{
+    font-size: 12px;
+}
+
+form #center{
+    text-align: center;
+}
+.rosa{
+    color: #F7A1A1;
+}
+form button{
+    margin-left: 20%;
+    background-color: #F7A1A1;
+    color: #000;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+button:hover{
+    background: #FFF;
+    color: #F7A1A1;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+footer h3{
+    font-size: 23px;
+    color: #F7A1A1;
+}
