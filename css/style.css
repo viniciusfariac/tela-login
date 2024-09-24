@@ -154,7 +154,7 @@ footer h3{
     color: #F7A1A1;
 }
 /*Responsivo*/  
-@media (max-width: 912px) {
+@media (max-width: 1024px) {
     .container {
         width: 80%;
         height: 450px;
@@ -193,6 +193,14 @@ footer h3{
         margin-left: 0; 
         width: 100%; 
     }
+    header{
+        text-align: center;
+        justify-content: center;
+    }
+    #header-links{
+        display: none;
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -211,5 +219,8 @@ footer h3{
 
     .container h2 {
         font-size: 28px;
+    }
+    #header-links{
+        display: none;
     }
 }
