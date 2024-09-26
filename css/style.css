@@ -1,3 +1,8 @@
+:root{
+    --background: #FDEBD0;
+    --primary: #F7A1A1;
+    --hover: #8CC4A1;
+}
 /* Restart */
 *{
     margin: 0;
@@ -21,7 +26,7 @@ h1, h2, h3, h4{
 }
 /* color h1 */
 h1{
-    color: #F7A1A1;
+    color: var(--primary);
 }
 /* color a */
 a{
@@ -29,7 +34,7 @@ a{
 }
 /* color and transition a */
 a:hover{
-    color: #8CC4A1;
+    color: var(--hover);
     transition: 0.5s;
 }
 /* font button  */
@@ -49,13 +54,13 @@ input[type="password"]
 /* input details */
 input{
     color: #000;
-    border: 1px solid #F7A1A1;
+    border: 1px solid var(--primary);
     border-radius: 4px;
     padding: 4px;
 }
 /* background-color body */
 body{
-    background-color: #FDEBD0;
+    background-color: var(--background);
 }
 /* header */
 header{
@@ -70,13 +75,13 @@ header{
     gap: 1rem;
 }
 #link-sign{
-    background-color: #F7A1A1;
+    background-color: var(--primary);
     padding: 5px;
     border-radius: 5px;
     color: #fff;
 }
 .link{
-    background-color: #FDEBD0;
+    background-color: var(--background);
     padding: 5px;
     border-radius: 5px;
 }
@@ -124,11 +129,11 @@ form #center{
     text-align: center;
 }
 .rosa{
-    color: #F7A1A1;
+    color: var(--primary);
 }
 form button{
     margin-left: 20%;
-    background-color: #F7A1A1;
+    background-color: var(--primary);
     color: #000;
     border: 2px solid transparent;
     border-radius: 5px;
@@ -140,7 +145,7 @@ form button{
 }
 button:hover{
     background: #FFF;
-    color: #F7A1A1;
+    color: var(--primary);
 }
 footer{
     display: flex;
@@ -151,7 +156,7 @@ footer{
 }
 footer h3{
     font-size: 23px;
-    color: #F7A1A1;
+    color: var(--primary);
 }
 /*Responsivo*/  
 @media (max-width: 1024px) {
